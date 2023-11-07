@@ -1,0 +1,38 @@
+/**
+ * Analytics
+ *
+ * This file is licensed under the Affero General Public License version 3 or
+ * later. See the LICENSE.md file.
+ *
+ * @author Marcel Scherello <analytics@scherello.de>
+ * @copyright 2019-2022 Marcel Scherello
+
+ */
+#app-sidebar {
+  width: initial !important;
+  max-width: initial !important;
+  border-left: initial !important;
+  height: initial !important;
+}
+
+.dataloadItem > a {
+  background-position: 14px center;
+  line-height: 44px;
+  padding: 0 12px 0 44px;
+}
+
+#dataloadDetail, #dataloadRun {
+  padding-top: 30px;
+}
+
+.wizardHeader {
+  text-align: center;
+  margin-top: 15px;
+  min-height: 26px;
+  border-bottom: 1px solid var(--color-border-dark);
+  border-top: 1px solid var(--color-border-dark);
+}
+
+#sidebarTitle {
+  display: none !important;
+}
